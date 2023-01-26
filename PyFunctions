@@ -1,0 +1,16 @@
+#-----------------------------FUNCTIONS-------------------------
+
+# https://docs.python.org/3/library/functions.html
+
+# functions structure is: a_name_of_a_function + ()
+# exemple: print()
+
+#-------------------------------------------------------------------to define your own function:
+#
+# def my_function():
+#    print("Hello")
+#    print("Bye")
+
+# now you can run your function.
+#-------------------------------------------------------------------
+

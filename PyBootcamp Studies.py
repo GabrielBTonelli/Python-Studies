@@ -226,3 +226,17 @@
 
 #print(f"Your password is: {password}")
 #---------------------------------------------------------------------------------------
+
+#-----------------------------------------------------------------------------WHILE LOOP
+
+# while something_is_true:
+#     do this
+#     then do this
+#     then do this
+
+# you also can use WHILE or WHILE NOT to check the truth of the situation and limit the loop
+
+
+#-----------------------------------HANGMAN GAME----------------------------------------------
+# 
+#

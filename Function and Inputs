@@ -1,0 +1,59 @@
+#def greet():
+#    print("Welcome!")
+#    print("This is the greet funtion")
+#    print("What now?")
+#
+#greet()
+
+# we can change the action of a function exploring the '()' or it.
+# like greet(something)
+
+# def greet_with_name(name):
+#    print(f"Welcome {name}")
+#    print(f"How do you doing {name}?")
+
+# greet_with_name("Gabriel")
+
+#________________________________________________
+#               something = 123
+#               parameter  argument
+#________________________________________________
+
+#_______________________________________________
+#POSITION ARGUMENT
+#
+# def greet_with(name, location):
+#     print(f"Hello {name}!")
+#     print(f"How is it in {location}?")
+
+# greet_with("Gabriel", "Madrid")
+#_______________________________________________
+#KEYWORD ARGUMENT
+#
+# def greet_with(name, location):
+#     print(f"Hello {name}!")
+#     print(f"How is it in {location}?")
+
+# greet_with(location="Madrid", name="Gabriel")
+#_______________________________________________
+
+#----------------------------------------------------------------------IS IT A PRIME NUMBER?
+# def prime_checker(number):
+#     is_prime = True
+#     for i in range (2, number): 
+#         if number % i == 0:
+#             is_prime = False
+#     if is_prime:
+#         print("It's a prime number.")
+#     else:
+#         print("It's not a prime number.")
+
+# n = int(input("Check this number: "))
+# prime_checker(number=n)
+#____________________________________________________________________________________________
+
+fruits = [4, 55, 64, 32, 16, 32]
+
+x = fruits.index(32)
+
+print(x)

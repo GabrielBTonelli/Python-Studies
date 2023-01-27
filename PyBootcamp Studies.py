@@ -237,5 +237,9 @@
 # you also can use WHILE or WHILE NOT to check the truth of the situation and limit the loop
 
 
-#-----------------------------------
-#
+#--------------------------------------------------------------------------FUNCTIONS AND INPUTS
+
+# Arguments & Parameters
+
+# on the CAESAR CIPHER excercise you can learn how to turn a loop repeatly picking "yes/no" and also you can
+# learn how to program harder!

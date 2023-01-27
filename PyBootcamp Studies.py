@@ -237,6 +237,5 @@
 # you also can use WHILE or WHILE NOT to check the truth of the situation and limit the loop
 
 
-#-----------------------------------HANGMAN GAME----------------------------------------------
-# 
+#-----------------------------------
 #

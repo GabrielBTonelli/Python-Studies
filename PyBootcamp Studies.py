@@ -247,6 +247,11 @@
 
 
 
+
+
+
+
+
 #------------------------------------------------DICTIONARIES IN PYTHON----------------------------------------------------------
 
 #To create your dictionary in Python the sintaxy it's like {key: value} than you substitute for what do you want.
@@ -354,3 +359,35 @@
 
 # add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
 # print(travel_log)
+
+
+
+
+
+
+#____________________________________________________________________________________Day 10: FUNCTIONS WITH OUTPUTS
+
+#---------------------------------------this function can give you the captalised Name.
+# def format_name(f_name, l_name):
+#     if f_name == "" or l_name == "":
+#         return "you didn't provide valid inputs."
+#     formated_f_name = f_name.title()
+#     formated_l_name = l_name.title()
+#     return f"{formated_f_name} {formated_l_name}"  # the RETURN works as the end of the function. Nothing happens after this!
+
+# print(format_name(input("What is your first name? "), input("What's your last name? ")))
+
+
+#-------------------------------------------------------------------------------------DOCSTRINGS
+# create definitions for the functions that we write
+# it has to go after the first line after our DECLARATION
+
+# def format_name(f_name, l_name):
+#     """This function can give you the captalised name and last name."""
+#     if f_name == "" or l_name == "":
+#         return "you didn't provide valid inputs."
+#     formated_f_name = f_name.title()
+#     formated_l_name = l_name.title()
+#     return f"{formated_f_name} {formated_l_name}"  # the RETURN works as the end of the function. Nothing happens after this!
+
+# print(format_name(input("What is your first name? "), input("What's your last name? ")))

@@ -243,3 +243,114 @@
 
 # on the CAESAR CIPHER excercise you can learn how to turn a loop repeatly picking "yes/no" and also you can
 # learn how to program harder!
+#________________________________________________________________________________________________________________________________
+
+
+
+#------------------------------------------------DICTIONARIES IN PYTHON----------------------------------------------------------
+
+#To create your dictionary in Python the sintaxy it's like {key: value} than you substitute for what do you want.
+#Exemple:
+# {key: value}
+# {"Bug": "an error in a program that prevents the program from running as expected"}
+
+# programming_dictionary = {
+#     "Bug": "An error in a program that prevents the program from running as expected.", 
+#     "Function": "A piece of code that you can easily call over and over again.",
+#     "Loop": "The action of doing something over and over again."
+
+#     }
+
+# if you want to call one of the items from a diccionary, you'll use:
+# print(programming_dictionary["Bug"])
+
+
+#_______________________________________________adding new items to dictionary.
+# programming_dictionary["Key"] = "Value"
+# print(programming_dictionary)
+
+# one method often used in programming is to create an empty dictionary and insert the values on it with previous teach.
+#_______________________________________________create an empty dictionary:
+# empty_dictionary = {}
+# empty_dictionary[]
+
+#_______________________________________________wipe an existing dictionary
+# often used due an program which needs to start over again with an empty dictionary.
+# programming_dictionary = {}
+# print(programming_dictionary)
+
+#_______________________________________________Edit an item in a dictionary
+# programming_dictionary["Bug"] = "NEW VALUE"
+
+#_______________________________________________Loop through a dictionary
+# for key in programming_dictionary:
+#     print(key)
+#     print(programming_dictionary[key])
+
+# #-------------------------------------------------------------------EXERCISE CHANGING SCORE TO GRADES
+# student_scores = {
+#   "Harry": 81,
+#   "Ron": 78,
+#   "Hermione": 99, 
+#   "Draco": 74,
+#   "Neville": 62,
+# }
+
+# student_grades = {}
+
+# for student in student_scores:
+#     score = student_scores[student]
+#     if score > 90:
+#         student_grades[student] = "Outstanding"
+#     elif score > 80:
+#         student_grades[student] = "Exceeds Expectations"
+#     elif score > 70:
+#         student_grades[student] = "Acceptable"
+#     else:
+#         student_grades[student] = "Fail"
+        
+# print(student_grades)
+#________________________________________________________________________________________________________
+
+#______________________________________________NESTING (Put one inside the other)
+# capitals = {
+#     "France": "Paris",
+#     "Germany": "Berlin",
+# }
+
+#---------------------------------------nesting a list in a dictionary
+# travel_log = {
+#     "France": ["Paris", "Lille", "Dijon"],
+#     "Germany": ["Berlin", "Hamburg", "Stuttgart"],
+# }
+
+#---------------------------------------nesting dictionary in a dictionary
+# travel_log = {
+#     "France": {"cities_visited": ["Paris", "Lille", "Dijon"], "total_visits": 12},
+#     "Germany": {"cities_not_visited": ["Berlin", "Hamburg", "Stuttgart"], "total_visits": 0}
+# }
+
+#---------------------------------------nesting a dictionary in a list
+# travel_log = [
+#     {
+#         "country": "France",
+#         "cities_visited": ["Paris", "Lille", "Dijon"],
+#         "total_visits": 12
+#     },
+#     {
+#         "country": "Germany",
+#         "cities_not_visited": ["Berlin", "Hamburg", "Stuttgart"],
+#         "total_visits": 0
+#     }
+# ]
+
+# #______________________________________Write the function that will allow new countries to be added to the travel_log. 👇
+# def add_new_country(country_visited, times_visited, cities_visited):
+#     new_country = {}
+#     new_country["country"] = country_visited
+#     new_country["visits"] = times_visited
+#     new_country["cities"] = cities_visited
+#     travel_log.append(new_country)
+
+# add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
+# print(travel_log)

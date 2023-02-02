@@ -1,4 +1,4 @@
-from Projects.PyArts import calculator_logo
+from PyArts import calculator_logo
 
 def add(n1, n2):
     """This function add(+) n1 to n2."""

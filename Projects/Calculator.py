@@ -1,4 +1,4 @@
-from PyArts import calculator_logo
+from Projects.PyArts import calculator_logo
 
 def add(n1, n2):
     """This function add(+) n1 to n2."""
@@ -16,11 +16,17 @@ def divide(n1, n2):
     """This function divides n1 for n2."""
     return n1 / n2
 
+def rest_of_divide(n1, n2):
+    """This function gives you the rest of the division between num1 and num2."""
+    return n1 % n2
+
+
 operations= {
     "+": add,
     "-": subtract,
     "*": multiply,
-    "/": divide
+    "/": divide,
+    "%": rest_of_divide
 }
 
 def calculator ():
